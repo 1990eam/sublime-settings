@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+// Default GET, commented POST
+fetch("url", {
+  method: "verb",
+  // headers: { 'Content-Type': 'application/json' },
+  // body: JSON.stringify(toJSONize)
+})
+  // API response
+  .then(response => response.json())
+  .then((data) => {
+  // console.log(data);
+  });
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <!-- <tabTrigger>hello</tabTrigger> -->
+<tabTrigger>ftc</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+<scope>source.json, source.js</scope>
+</snippet>
+<description>API GET POST</description>
