@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-document.QuerySelector("${1:element}");$0
+document.querySelector("${1:element}");$0
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <!-- <tabTrigger>hello</tabTrigger> -->

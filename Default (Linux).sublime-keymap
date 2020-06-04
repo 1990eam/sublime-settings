@@ -14,5 +14,7 @@
       { "key": "setting.tab_completion", "operator": "equal", "operand": true }
     ]
   },
+  { "keys": ["ctrl+r"], "command": "reindent"},
+  { "keys": ["ctrl+shift+w"], "command": "toggle_setting", "args": {"setting": "word_wrap"}},
 
 ]

@@ -1,11 +1,12 @@
 <snippet>
   <content><![CDATA[
-document.querySelectorAll("${1:elements}");$0
+if (${1:condition}) {
+  $0
+}
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <!-- <tabTrigger>hello</tabTrigger> -->
-<tabTrigger>qera</tabTrigger>
+  <tabTrigger>if</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-<scope>source.json, source.js</scope>
+  <scope>source.json, source.js</scope>
+  <description>if statement</description>
 </snippet>
-<description>query selector</description>
