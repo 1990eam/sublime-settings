@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+<%= form_for(${1:element}) do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+  <%= f.label :details %>
+  <%= f.text_field :details %>
+<!--   <% if f.object.persisted? %>
+    <%= f.label :completed %>
+    <%= f.check_box :completed %>
+  <% end %>
+<%= render "form", ${2:element}: @${3:instanceVariable} %>
+-->
+  <%= f.submit %>
+<% end %>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>formfor</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ruby.rails, text.html(.basic), source.ruby</scope>
+</snippet>
+

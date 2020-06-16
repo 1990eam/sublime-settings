@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+<%= simple_form_for [ @restaurant, @review ] do |f| %>
+  <%= f.input :content %>
+  <%= f.submit "Submit", class: "btn btn-primary" %>
+<% end %>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>simpleformfor</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ruby.rails, text.html(.basic), source.ruby</scope>
+</snippet>

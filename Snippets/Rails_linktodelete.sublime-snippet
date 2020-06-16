@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+<%= link_to task_path(task),
+            method: :delete,
+            data: { confirm: "Are you sure?" } do  %>
+  <i class="fa fa-trash-o" aria-hidden="true"> Delete this task</i>
+<% end %>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>linktodelete</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.ruby.rails, text.html(.basic), source.ruby</scope>
+</snippet>
+

@@ -2,8 +2,8 @@
   { "keys": ["shift+control+space"], "command": "insert_snippet", "args": {"name": "Packages/User/Snippets/JS_FunctionCloser.sublime-snippet"} },
 
   // auto comment
-  { "keys": ["ctrl+7"], "command": "toggle_comment", "args": { "block": false } },
-  { "keys": ["ctrl+shift+7"], "command": "toggle_comment", "args": { "block": true } },
+  { "keys": ["ctrl+3"], "command": "toggle_comment", "args": { "block": false } },
+  { "keys": ["ctrl+shift+3"], "command": "toggle_comment", "args": { "block": true } },
 
   // auto complete
   { "keys": ["ctrl+space"], "command": "auto_complete" },
@@ -14,7 +14,7 @@
       { "key": "setting.tab_completion", "operator": "equal", "operand": true }
     ]
   },
-  { "keys": ["ctrl+r"], "command": "reindent"},
+  { "keys": ["ctrl+shift+r"], "command": "reindent"},
   { "keys": ["ctrl+shift+w"], "command": "toggle_setting", "args": {"setting": "word_wrap"}},
 
 ]
